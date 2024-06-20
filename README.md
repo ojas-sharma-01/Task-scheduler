@@ -1,4 +1,4 @@
-link - https://task-scheduler-kt4g.onrender.com
+link - https://task-scheduler-silk.vercel.app/
 
 Tech stack :-
 frontend - react 
