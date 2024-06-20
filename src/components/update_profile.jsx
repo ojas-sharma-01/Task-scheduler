@@ -12,7 +12,7 @@ const Update_profile = () => {
     const handlesubmit = (e) => {
         e.preventDefault();
 
-        fetch("https://task-scheduler-q8cc.vercel.app/update_profile", {
+        fetch("https://task-scheduler-silk.vercel.app/update_profile", {
             method : "POST",
             body : JSON.stringify(fdata),
             headers : {

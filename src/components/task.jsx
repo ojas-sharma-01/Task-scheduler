@@ -9,7 +9,7 @@ const TaskList = (props) => {
   ]);
 
   const gettask = () => {
-    fetch("https://task-scheduler-q8cc.vercel.app/getall", {
+    fetch("https://task-scheduler-silk.vercel.app/getall", {
       method: "POST",
     body: JSON.stringify({
       "uuid" : props.uuid,
@@ -25,7 +25,7 @@ const TaskList = (props) => {
   }
 
   const handleDeleteTask = (id) => {
-    fetch("https://task-scheduler-q8cc.vercel.app/deltask", {
+    fetch("https://task-scheduler-silk.vercel.app/deltask", {
       method: "POST",
     body: JSON.stringify({
       "uuid" : props.uuid,
@@ -56,7 +56,7 @@ const TaskList = (props) => {
   };
 
   const handleToggleComplete = (id) => {
-    fetch("https://task-scheduler-q8cc.vercel.app/complete",  {
+    fetch("https://task-scheduler-silk.vercel.app/complete",  {
       method: "POST",
     body: JSON.stringify({
       "uuid" : props.uuid,

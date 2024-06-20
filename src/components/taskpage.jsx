@@ -9,7 +9,7 @@ const TaskDetails = (props) => {
   const { taskId } = useParams();
   const [tasks, settasks] = useState([]);
   useEffect(() => {
-    fetch("https://task-scheduler-q8cc.vercel.app/getall", {
+    fetch("https://task-scheduler-silk.vercel.app/getall", {
       method: "POST",
     body: JSON.stringify({
       "uuid" : locc.state.uuid,

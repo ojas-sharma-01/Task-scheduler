@@ -26,7 +26,7 @@ const Addpst = () => {
   const submit = (event) => {
     event.preventDefault();
 
-    fetch("https://task-scheduler-q8cc.vercel.app/add", {
+    fetch("https://task-scheduler-silk.vercel.app/add", {
       method: "POST",
       body: JSON.stringify(fdata),
       headers: {
