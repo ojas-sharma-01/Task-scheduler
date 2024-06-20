@@ -25,7 +25,7 @@ const Profile = () => {
 
     useEffect(() => {
 
-        fetch(`https://task-scheduler-kt4g.onrender.com/getprofile/${locc.state.uuid}`)
+        fetch(`https://task-scheduler-q8cc.vercel.app/getprofile/${locc.state.uuid}`)
         .then(r => r.json())
         .then(d => {
             if (d.msg === "Error"){

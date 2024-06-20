@@ -18,7 +18,7 @@ const Sgnup = () => {
     const handlesubmit = (e) => {
         e.preventDefault();
         setrstext(<img src={load} className="h-[80px]" />);
-        fetch("https://task-scheduler-kt4g.onrender.com/register", {
+        fetch("https://task-scheduler-q8cc.vercel.app/register", {
             method : "POST",
             body : JSON.stringify(fdata),
             headers : {
